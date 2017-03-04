@@ -144,6 +144,7 @@
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="deso" />
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="deso" />
+  <project name="android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="omni" />
   <project name="packages_apps_OpenCamera" path="packages/apps/OpenCamera" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
   <project name="packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="deso" />
