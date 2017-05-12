@@ -142,6 +142,7 @@
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_OpenCamera" path="packages/apps/OpenCamera" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
+  <project name="packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="deso" />
   <project name="packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="deso" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="deso" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="deso" />
