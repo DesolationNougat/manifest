@@ -121,6 +121,7 @@
   </project>
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="deso" />
   <project name="external_boringssl" path="external/boringssl" remote="deso" />
+  <project name="external_DUtils" path="external/DUtils" remote="deso" />
   <project name="external_giflib" path="external/giflib" remote="deso"/>
   <project name="external_skia" path="external/skia" remote="deso" />
   <project name="external_tinycompress" path="external/tinycompress" remote="deso" />
@@ -138,6 +139,7 @@
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="deso" />
   <project name="packages_apps_DesolatedCore" path="packages/apps/DesolatedCore" remote="deso" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="deso" />
+  <project name="packages_apps_DUI" path="packages/apps/DUI" remote="deso" />
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="deso" />
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="deso" />
