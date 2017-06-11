@@ -141,6 +141,7 @@
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="deso" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="deso" />
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="deso" />
+  <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="deso" />
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="deso" />
   <project name="packages_apps_OpenCamera" path="packages/apps/OpenCamera" remote="deso" />
