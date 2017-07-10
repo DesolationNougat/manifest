@@ -30,11 +30,7 @@
   <remote  name="bitbucket"
            fetch="https://bitbucket.com"/>
 
-  <remote  name="omni"
-           fetch="https://github.com/omnirom"
-           revision="refs/heads/android-7.1" />
-
-  <default revision="refs/tags/LA.UM.5.8.r1-01500-8x98.0"
+  <default revision="refs/tags/LA.UM.5.8.r1-02200-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>

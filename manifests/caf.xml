@@ -93,18 +93,14 @@
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosp-caf" />
   <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
-  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosp-caf" />
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="aosp-caf" />
-  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
-  <project name="platform_system_media" path="system/media" remote="aosp-caf" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
- <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
-  <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="aosp-caf" />
+  <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
@@ -134,6 +130,8 @@
   <project name="frameworks_support" path="frameworks/support" remote="deso" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="deso" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="deso" />
+  <project name="hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" revision="n" remote="deso" />
+  <project name="hardware_qcom_wlan-caf" path="hardware/qcom/wlan-caf" revision="n" remote="deso" />
   <project name="manifest" path="manifest" remote="deso" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="deso" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="deso" />
@@ -144,7 +142,7 @@
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="deso" />
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
   <project name="packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="deso" />
-  <project name="android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="omni" />
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="deso" />
   <project name="packages_apps_OpenCamera" path="packages/apps/OpenCamera" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
   <project name="packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="deso" />
@@ -157,9 +155,11 @@
   <project name="system_bt" path="system/bt" remote="deso" />
   <project name="system_core" path="system/core" remote="deso" />
   <project name="system_extras" path="system/extras" remote="deso" />
+  <project name="system_media" path="system/media" remote="deso" />
   <project name="system_netd" path="system/netd" remote="deso" />
   <project name="system_sepolicy" path="system/sepolicy" remote="deso" />
   <project name="system_vold" path="system/vold" remote="deso" />
+  <project name="vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="deso" />
   <project name="vendor_deso" path="vendor/deso" remote="deso" />
   <!-- END DESO -->
 
