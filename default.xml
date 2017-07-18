@@ -536,6 +536,9 @@
   <!-- AOSP-CAF additions -->
   <include name="manifests/caf.xml"/>
 
+  <!-- DESOLATION additions -->
+  <include name="manifests/deso.xml"/>
+
   <!-- LAOS additions -->
   <include name="manifests/laos.xml"/>
 
