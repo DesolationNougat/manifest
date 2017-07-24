@@ -39,6 +39,7 @@
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="deso" />
   <project name="packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="deso" />
   <project name="packages_apps_OpenCamera" path="packages/apps/OpenCamera" remote="deso" />
+  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller"remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
   <project name="packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="deso" />
   <project name="packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="deso" />
