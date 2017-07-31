@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- BEGIN LINEAGE-OS -->
+  <project name="android_external_bson" path="external/bson" remote="laos" />
   <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
   <project name="android_external_libnfc-nci" path="external/libnfc-nci" remote="laos" />
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="laos" />
