@@ -72,7 +72,7 @@
   <!-- END SUBSTRATUM -->
 
   <!-- BEGIN PREBUILTS -->
-  <project name="prebuilts/build-tools" path="uberroms/prebuilts_build-tools" remote="bitbucket" revision="master" />
+  <project name="uberroms/prebuilts_build-tools" path="prebuilts/build-tools" remote="bitbucket" revision="master" />
   <!-- END PREBUILTS -->
 
 </manifest>
