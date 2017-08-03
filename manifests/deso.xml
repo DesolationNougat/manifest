@@ -70,5 +70,9 @@
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
   <!-- END SUBSTRATUM -->
-  
+
+  <!-- BEGIN PREBUILTS -->
+  <project name="prebuilts/build-tools" path="uberroms/prebuilts_build-tools" remote="bitbucket" revision="master" />
+  <!-- END PREBUILTS -->
+
 </manifest>
