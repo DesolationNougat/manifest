@@ -28,7 +28,7 @@
            fetch="ssh://git@github.com"/>
 
   <remote  name="bitbucket"
-           fetch="https://bitbucket.com"/>
+           fetch="https://bitbucket.org"/>
 
   <default revision="refs/tags/LA.UM.5.8.r1-02200-8x98.0"
            remote="caf"
