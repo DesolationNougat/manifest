@@ -8,6 +8,7 @@
   <project name="build" path="build" remote="deso" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="build_kati" path="build/kati" remote="deso" />
   <project name="device_qcom_common" path="device/qcom/common" remote="deso-devices" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="deso" />
   <project name="external_boringssl" path="external/boringssl" remote="deso" />
