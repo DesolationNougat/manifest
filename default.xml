@@ -407,7 +407,6 @@
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" />
   <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" />
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" />
-  <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" />
   <project groups="pdk-fs" name="platform/packages/apps/Phone" path="packages/apps/Phone" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" />
