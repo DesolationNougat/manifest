@@ -211,6 +211,8 @@
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2"/>
   <project groups="pdk" name="platform/external/libmtp" path="external/libmtp"/>
   <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack"/>
+  <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci"/>
+  <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="platform/external/libnfnetlink" path="external/libnfnetlink"/>
   <project groups="pdk" name="platform/external/libnl" path="external/libnl"/>
   <project groups="pdk" name="platform/external/libogg" path="external/libogg"/>
@@ -270,7 +272,7 @@
   <project groups="pdk" name="platform/external/pcre" path="external/pcre"/>
   <project groups="pdk" name="platform/external/pdfium" path="external/pdfium"/>
   <project groups="pdk" name="platform/external/piex" path="external/piex"/>
-  <project name="platform/external/powertop" path="external/powertop" />
+  <project name="platform/external/powertop" path="external/powertop"/>
   <project groups="pdk" name="platform/external/ppp" path="external/ppp"/>
   <project groups="pdk" name="platform/external/proguard" path="external/proguard"/>
   <project groups="pdk" name="platform/external/protobuf" path="external/protobuf"/>
@@ -302,8 +304,8 @@
   <project groups="pdk" name="platform/external/tcpdump" path="external/tcpdump"/>
   <project groups="pdk" name="platform/external/testng" path="external/testng"/>
   <project groups="pdk" name="platform/external/timezonepicker-support" path="external/timezonepicker-support"/>
-  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" />
-  <project groups="pdk" name="platform/external/tinycompress" path="external/tinycompress" />
+  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa"/>
+  <project groups="pdk" name="platform/external/tinycompress" path="external/tinycompress"/>
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml"/>
   <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2"/>
   <project groups="pdk" name="platform/external/tlsdate" path="external/tlsdate"/>
@@ -320,7 +322,7 @@
   <project groups="pdk" name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
+  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project groups="pdk" name="platform/external/xmlrpcpp" path="external/xmlrpcpp"/>
   <project groups="pdk" name="platform/external/xmlwriter" path="external/xmlwriter"/>
   <project groups="pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
@@ -498,10 +500,13 @@
   <project groups="pdk" name="platform/system/vold" path="system/vold" />
   <project name="platform/system/weaved" path="system/weaved" />
   <project name="platform/system/webservd" path="system/webservd" />
-  <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
-  <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
+  <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" />
+  <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" />
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" />
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" />
+  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" />
+  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" />
+  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" />
   <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" />
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" />
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" />
@@ -514,6 +519,7 @@
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" />
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" />
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" />
+  <project name="platform/vendor/qcom-opensource/wigig" path="vendor/qcom/opensource/wigig" />
   <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" />
   <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" />
   <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" />
