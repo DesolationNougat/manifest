@@ -261,7 +261,7 @@
   <project groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts" />
   <project groups="pdk" name="platform/external/oauth" path="external/oauth" />
   <project groups="pdk" name="platform/external/objenesis" path="external/objenesis" />
-  <project groups="pdk" name="platform/external/okhttp" path="external/okhttp" />
+  <project groups="pdk" name="platform/external/okhttp" path="external/okhttp" revision="LA.UM.5.8.r1-02400-8x98.0" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv" />
   <project groups="pdk" name="platform/external/opencv3" path="external/opencv3" />
   <project groups="pdk" name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" />
@@ -507,7 +507,7 @@
   <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" />
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" />
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" />
-  <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" />
+  <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" revision="LA.UM.5.8.r1-02400-8x98.0" />
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm" />
   <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager" />
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" />
