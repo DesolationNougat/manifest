@@ -291,6 +291,7 @@
   <project groups="pdk" name="platform/external/sonic" path="external/sonic" />
   <project groups="pdk" name="platform/external/sonivox" path="external/sonivox" />
   <project groups="pdk" name="platform/external/speex" path="external/speex" />
+  <project groups="pdk" name="platform/external/sqlite" path="external/sqlite" />
   <project groups="pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools" />
   <project groups="pdk" name="platform/external/srtp" path="external/srtp" />
   <project groups="pdk" name="platform/external/strace" path="external/strace" />

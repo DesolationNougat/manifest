@@ -16,7 +16,6 @@
   <project name="external_giflib" path="external/giflib" remote="deso"/>
   <project name="external_libnfc-nci" path="external/libnfc-nci" remote="deso"/>
   <project name="external_skia" path="external/skia" remote="deso" />
-  <project name="external_sqlite" path="external/sqlite" remote="deso" />
   <project name="external_tinycompress" path="external/tinycompress" remote="deso" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="deso" />
   <project name="frameworks_av" path="frameworks/av" remote="deso" />
