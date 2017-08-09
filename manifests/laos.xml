@@ -5,8 +5,6 @@
   <project name="android_external_bson" path="external/bson" remote="laos" />
   <project name="android_external_chromium-webview" path="external/chromium-webview" remote="laos" clone-depth="1" />
   <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
-  <project name="android_external_libnfc-nci" path="external/libnfc-nci" remote="laos" />
-  <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8084" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8916" />
@@ -39,11 +37,7 @@
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" groups="qcom" remote="laos" revision="cm-14.1-caf-8994" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" groups="qcom" remote="laos" revision="cm-14.1-caf-8996" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8998" groups="qcom" remote="laos" revision="cm-14.1-caf-8998" />
-  <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="laos" />
-  <project name="android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="laos" />
-  <project name="android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="laos" />
-  <project name="android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="laos" />
   <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="laos" />
   <!-- END LINEAGE-OS -->
-
+  
 </manifest>
