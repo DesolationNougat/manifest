@@ -39,5 +39,11 @@
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8998" groups="qcom" remote="laos" revision="cm-14.1-caf-8998" />
   <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="laos" />
   <!-- END LINEAGE-OS -->
-  
+
+  <!-- BEGIN SLIMROMS -->
+  <project name="vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="slim" />
+  <project name="vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="slim" />
+  <project name="vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="slim" />
+  <!-- END SLIMROMS -->
+
 </manifest>
