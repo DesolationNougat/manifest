@@ -39,6 +39,7 @@
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="deso" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="deso" />
   <project name="packages_apps_NovaLauncher" path="packages/apps/NovaLauncher" remote="deso" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="deso" />
   <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="deso" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="deso" />
   <project name="packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="deso" />
