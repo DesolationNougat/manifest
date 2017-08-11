@@ -27,8 +27,8 @@
   <project name="frameworks_support" path="frameworks/support" remote="deso" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="deso" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="deso" />
-  <project name="hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" revision="n" remote="deso" />
-  <project name="hardware_qcom_wlan-caf" path="hardware/qcom/wlan-caf" revision="n" remote="deso" />
+  <project name="hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="deso" />
+  <project name="hardware_qcom_wlan-caf" path="hardware/qcom/wlan-caf" remote="deso" />
   <project name="manifest" path="manifest" remote="deso" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="deso" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="deso" />
