@@ -47,6 +47,7 @@
   <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
   <project name="packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="deso" />
+  <project name="packages_apps_WelcomeBack" path="packages/apps/WelcomeBack" remote="deso" />
   <project name="packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="deso" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="deso" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="deso" />
