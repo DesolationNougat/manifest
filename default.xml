@@ -124,20 +124,24 @@
   <project name="vendor_deso" path="vendor/deso" remote="deso" />
   <!-- END DESOLATION -->
 
+  <!-- BEGIN PREBUILTS -->
+  <project name="uberroms/prebuilts_build-tools" path="prebuilts/build-tools" remote="bitbucket" revision="master" />
+  <!-- END PREBUILTS -->
+
+  <!-- BEGIN SDCLANG -->
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-mr2" />
+  <!-- END SDCLANG -->
+
+  <!-- BEGIN SUBSTRATUM -->
+  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
+  <!-- END SUBSTRATUM -->
+
   <!-- BEGIN TOOLCHAINS -->
   <project name="REV3NT3CH/aarch64-linux-gnu-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.x" remote="bitbucket" revision="n" />
   <project name="REV3NT3CH/aarch64-linux-gnu-8.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.x" remote="bitbucket" revision="n" />
   <project name="REV3NT3CH/arm-linux-gnueabi-6.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-6.x" remote="bitbucket" revision="n" />
   <project name="REV3NT3CH/arm-linux-gnueabi-8.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-8.x" remote="bitbucket" revision="n" />
   <!-- END TOOLCHAINS -->
-
-  <!-- BEGIN SUBSTRATUM -->
-  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
-  <!-- END SUBSTRATUM -->
-
-  <!-- BEGIN PREBUILTS -->
-  <project name="uberroms/prebuilts_build-tools" path="prebuilts/build-tools" remote="bitbucket" revision="master" />
-  <!-- END PREBUILTS -->
 
   <!-- BEGIN LINEAGE -->
   <project name="android_external_bson" path="external/bson" remote="laos" />
