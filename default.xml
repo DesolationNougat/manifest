@@ -10,7 +10,7 @@
 
   <remote  name="caf"
            fetch="http://source.codeaurora.org/quic/la"
-           revision="refs/tags/LA.UM.5.8.r1-02200-8x98.0" />
+           revision="refs/tags/LA.UM.5.8.r1-02700-8x98.0" />
 
   <remote  name="deso"
            fetch="https://github.com/DesolationROM"
