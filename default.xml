@@ -50,7 +50,6 @@
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosp-caf" />
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="aosp-caf" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
-  <project name="platform_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="aosp-caf" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
@@ -107,6 +106,7 @@
   <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="deso" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="deso" />
   <project name="packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="deso" />
+  <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="deso" />
   <project name="packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="deso" />
   <project name="packages_apps_WelcomeBack" path="packages/apps/WelcomeBack" remote="deso" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="deso" />
