@@ -28,7 +28,7 @@
            revision="cm-14.1" />
 
   <default remote="caf"
-  	       prune="false"
+           prune="false"
            sync-j="8"
            sync-c="true" />
 
