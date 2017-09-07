@@ -314,10 +314,8 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -469,6 +467,14 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <!-- END AOSP -->
 
+  <!-- BEGIN DESO -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="deso" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="deso" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="deso" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="deso" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="deso" />
+  <!-- END DESO -->
+
   <!-- BEGIN LAOS -->
   <project path="build/make" name="android_build" groups="pdk" remote="laos" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -513,10 +519,6 @@
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="laos" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="laos" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="laos" />
-
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="laos" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="laos" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="laos" />
 
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="laos" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="laos" />
