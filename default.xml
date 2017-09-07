@@ -468,15 +468,7 @@
   <!-- END AOSP -->
 
   <!-- BEGIN DESO -->
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="deso" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="deso" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="deso" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="deso" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="deso" />
-  <!-- END DESO -->
-
-  <!-- BEGIN LAOS -->
-  <project path="build/make" name="android_build" groups="pdk" remote="laos" >
+  <project path="build/make" name="build" groups="pdk" remote="deso" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -485,6 +477,17 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="deso" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="deso" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="deso" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="deso" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="deso" />
+
+  <project path="vendor/lineage" name="vendor_deso" remote="deso" />
+  <!-- END DESO -->
+
+  <!-- BEGIN LAOS -->
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="laos" />
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="laos" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -577,7 +580,6 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="laos" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="laos" />
 
-  <project path="vendor/lineage" name="android_vendor_lineage" remote="laos" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="laos" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="laos" />
   <project path="vendor/nxp/interfaces/opensource/nfc" name="platform/vendor/nxp/interfaces/opensource/nfc" remote="caf" >
