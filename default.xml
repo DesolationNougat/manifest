@@ -484,6 +484,7 @@
   </project>
   <project path="art" name="art" groups="pdk" remote="deso" />
   <project path="bionic" name="bionic" groups="pdk" remote="deso" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="deso" />
   <project path="device/qcom/common" name="device_qcom_common" remote="devices" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="deso" />
@@ -496,7 +497,6 @@
   <!-- END DESO -->
 
   <!-- BEGIN LAOS -->
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="laos" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="laos" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="laos" />
 
