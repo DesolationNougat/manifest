@@ -493,6 +493,8 @@
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="deso" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="deso" />
 
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="deso" />
+
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="deso" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="deso" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="deso" />
@@ -523,7 +525,6 @@
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="laos" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="laos" />
 
-  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="laos" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="laos" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="laos" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="laos" />
