@@ -15,7 +15,7 @@
            revision="o" />
 
   <remote  name="devices"
-           fetch="https://github.com/DesolationROM-Devices"
+           fetch="https://github.com/DesolationRom-Devices"
            revision="o" />
 
   <remote  name="github"
