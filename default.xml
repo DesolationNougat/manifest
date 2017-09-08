@@ -36,6 +36,7 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
 
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
@@ -498,8 +499,6 @@
   <!-- END DESO -->
 
   <!-- BEGIN LAOS -->
-  <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="laos" />
-
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="laos" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="laos" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="laos" />
