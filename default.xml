@@ -482,6 +482,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="art" name="art" groups="pdk" remote="deso" />
+  <project path="bionic" name="bionic" groups="pdk" remote="deso" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="deso" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="deso" />
@@ -493,10 +495,6 @@
   <!-- END DESO -->
 
   <!-- BEGIN LAOS -->
-
-
-  <project path="art" name="android_art" groups="pdk" remote="laos" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="laos" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="laos" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="laos" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="laos" />
