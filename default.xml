@@ -503,6 +503,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="deso" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="deso" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" groups="pdk-fs" remote="deso" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="deso" />
 
   <project path="vendor/lineage" name="vendor_deso" remote="deso" />
   <!-- END DESO -->
