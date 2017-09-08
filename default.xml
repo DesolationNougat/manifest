@@ -477,6 +477,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="deso" />
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="deso" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="deso" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="deso" />
@@ -488,11 +493,7 @@
   <!-- END DESO -->
 
   <!-- BEGIN LAOS -->
-  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="laos" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="laos" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+
 
   <project path="art" name="android_art" groups="pdk" remote="laos" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="laos" />
