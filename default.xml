@@ -510,6 +510,13 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="deso" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="deso" />
 
+  <project path="system/bt" name="system_bt" groups="pdk" remote="deso" />
+  <project path="system/core" name="system_core" groups="pdk" remote="deso" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="deso" />
+  <project path="system/media" name="system_media" groups="pdk" remote="deso" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="deso" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="deso" />
+
   <project path="vendor/lineage" name="vendor_deso" remote="deso" />
   <!-- END DESO -->
 
@@ -572,15 +579,9 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="laos" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="laos" revision="lineage-15.0-caf" />
 
-  <project path="system/bt" name="android_system_bt" groups="pdk" remote="laos" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="laos" />
-  <project path="system/extras" name="android_system_extras" groups="pdk" remote="laos" />
-  <project path="system/media" name="android_system_media" groups="pdk" remote="laos" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="laos" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="laos" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="laos" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="laos" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="laos" />
 
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="laos" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="laos" />
