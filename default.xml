@@ -494,6 +494,7 @@
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="deso" />
 
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="deso" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="deso" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="deso" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="deso" />
@@ -549,7 +550,6 @@
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8998" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="laos" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="laos" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="laos" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="laos" />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom,pdk" remote="laos" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" remote="laos" revision="lineage-15.0-caf-8916" />
