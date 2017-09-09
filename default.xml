@@ -525,14 +525,12 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="laos" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="laos" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="laos" />
-  <project path="external/bash" name="android_external_bash" remote="laos" />
   <project path="external/brctl" name="android_external_brctl" remote="laos" />
   <project path="external/connectivity" name="android_external_connectivity" remote="laos" />
   <project path="external/ebtables" name="android_external_ebtables" remote="laos" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="laos" />
   <project path="external/exfat" name="android_external_exfat" remote="laos" />
   <project path="external/fuse" name="android_external_fuse" remote="laos" />
-  <project path="external/htop" name="android_external_htop" remote="laos" />
   <project path="external/json-c" name="android_external_json-c" remote="laos" />
   <project path="external/libncurses" name="android_external_libncurses" remote="laos" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="laos" />
