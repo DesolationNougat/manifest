@@ -476,7 +476,7 @@
   <project path="bionic" name="bionic" groups="pdk" remote="deso" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="deso" />
 
-  <project path="device/lineage/sepolicy" name="device_deso_sepolicy" remote="devices" />
+  <project path="device/deso/sepolicy" name="device_deso_sepolicy" remote="devices" />
   <project path="device/qcom/common" name="device_qcom_common" remote="devices" />
 
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="deso" />
