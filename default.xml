@@ -518,7 +518,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="deso" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="deso" />
 
-  <project path="vendor/lineage" name="vendor_deso" remote="deso" />
+  <project path="vendor/deso" name="vendor_deso" remote="deso" />
   <!-- END DESO -->
 
   <!-- BEGIN LAOS -->
