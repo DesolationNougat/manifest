@@ -584,6 +584,7 @@
 
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="laos" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="laos" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="laos" />
   <project path="vendor/nxp/interfaces/opensource/nfc" name="platform/vendor/nxp/interfaces/opensource/nfc" remote="caf" >
     <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp" />
   </project>
